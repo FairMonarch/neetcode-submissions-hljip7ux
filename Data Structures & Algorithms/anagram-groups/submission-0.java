@@ -7,12 +7,12 @@ class Solution {
             String key = new String(a);
             if(!map.containsKey(key)){
                 map.put(key, new ArrayList<>());
-            }şıı
+            }
             map.get(key).add(s);
         }
         return new ArrayList<>(map.values());
     }
 }
-lol
+
 
     
